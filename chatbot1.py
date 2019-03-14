@@ -40,7 +40,7 @@ def greeting(sentence):
 name_input=("your name")
 name_response=["My Name is ROBO"]
 
-def name(sentence):
+def name(sentence): 
 	for word in sentence.split():
 		if word.lower() in name_input:
 			return name_response
